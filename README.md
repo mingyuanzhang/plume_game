@@ -1,8 +1,11 @@
 # Plume
 
-A hunt by scent, for the browser. Sibling to [echo](../echo), and built on the same
-bones: one sense, modelled honestly, and a game made out of what that sense cannot tell
-you.
+**Play it: <https://mingyuanzhang.github.io/plume_game/>**
+
+A hunt by scent, for the browser. Sibling to
+[echo](https://github.com/mingyuanzhang/echo_game) and
+[field](https://github.com/mingyuanzhang/field_game), and built on the same bones: one
+sense, modelled honestly, and a game made out of what that sense cannot tell you.
 
 The thing this one is about is that **odour does not form a gradient you can climb.** A
 source in wind does not sit inside tidy concentric rings of smell. The wind carries its
