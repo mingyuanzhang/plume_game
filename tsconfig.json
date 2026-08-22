@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "types": ["vite/client"],
+
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+
+    // TypeScript 7 resolves `paths` relative to this file; `baseUrl` was removed.
+    "paths": { "@/*": ["./src/*"] }
+  },
+  // `scripts` is in here deliberately. Those files are the acceptance tests — the one
+  // that proves par and the one that proves each plume can be followed — and they are
+  // bundled by rolldown, which does not typecheck. A broken assertion in them is worth
+  // rather more than a broken line of game code, because it is what would have caught it.
+  "include": ["src", "scripts", "vite.config.ts"]
+}
